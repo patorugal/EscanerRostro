@@ -28,6 +28,7 @@ namespace WpfFaceDetectionTest
         {
             //Hola github
             //este es un mensaje de prueba
+            //commit
             capture = new Capture();
             haarCascade = new HaarCascade(@"haarcascade_frontalface_alt_tree.xml");
             timer = new DispatcherTimer();
