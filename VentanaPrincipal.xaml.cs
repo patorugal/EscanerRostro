@@ -27,6 +27,7 @@ namespace WpfFaceDetectionTest
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             //Hola github
+            //este es un mensaje de prueba
             capture = new Capture();
             haarCascade = new HaarCascade(@"haarcascade_frontalface_alt_tree.xml");
             timer = new DispatcherTimer();
